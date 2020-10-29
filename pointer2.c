@@ -7,7 +7,7 @@ int main()
 	{
 		int a = 10;
 		p = &a;
-		printf("%d\n",*p); // pointer
+		printf("%p\n",*p); // pointer
 	}
-	printf("%d\n",*p); //dangling pointer
+	printf("%p\n",*p); //dangling pointer
 }

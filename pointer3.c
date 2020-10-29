@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
 {
-	float *p;
+	int *p;
 	printf("%ld\n",sizeof(p));
 }
